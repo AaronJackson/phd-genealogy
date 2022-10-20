@@ -1,0 +1,3 @@
+# PhD "Family" Tree
+
+Requires GraphViz. Run ~make~ to build.
