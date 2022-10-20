@@ -1,0 +1,114 @@
+digraph D {
+        label = "PhD Genealogy"
+        labelloc = "t"
+
+
+        node [shape=box]
+
+        "Abraham Gotthelf Kästner" -> {
+                "Johann Friedrich Pfaff"
+        }
+        "Johann Friedrich Pfaff" -> {
+                "Johann Bartels",
+                "Carl Friedrich Gauß"
+                "August Möbius",
+                "Mollweide Karl"
+        }
+        "Carl Friedrich Gauß" -> {
+                "Christian Ludwig Gerling"
+        }
+        "Christian Ludwig Gerling" -> {
+                "Julius Plücker"
+        }
+        "Julius Plücker" -> {
+                "Felix Klein"
+        }
+        "Felix Klein" -> {
+                "Ferdinand Lindemann"
+        }
+        "Ferdinand Lindemann" -> {
+                "David Hilbert"
+        }
+        "David Hilbert" -> {
+                "Erhard Schmidt"
+        }
+        "Erhard Schmidt" -> {
+                "Salomon Bochner",
+                "Alfred Brauer",
+                "Richard Brauer",
+                "Lothar Collatz",
+                "Alexander Dinghas",
+                "Michael Golomb",
+                "Eberhard Hopf"
+                "Heinz Hopf",
+                "Günther Ludwig",
+                "Helmut Wielandt"
+        }
+        "Heinz Hopf" -> {
+                "Alfred Aeppli",
+                "Beno Eckmann",
+                "Hans Freudenthal",
+                "Walter Habicht",
+                "Friedrich Hirzebruch",
+                "Heinz Huber",
+                "Peter Huber",
+                "Michel Kervaire",
+                "Will Rinow",
+                "Hans Samelson"
+                "Ernst Spcker",
+                "Eduard Stiefel",
+                "James Stoker"
+        }
+        "Hans Freudenthal" -> {
+                "Jacques Benders",
+                "Henk Bos",
+                "Nicole de Grande-Kimpe",
+                "Johannes Duistermaat",
+                "Rudolf Hirschfeld",
+                "Frederik Hogesteeger",
+                "Petrus Lemmens",
+                "Gerard Leppink",
+                "Jacob Ponstein",
+                "Carel Scheffer",
+                "Willem Titus van Est",
+                "Arnoud van Rooij",
+                "Ferdinand Veldkamp",
+                "Gerhard Veltkamp"
+        }
+        "Willem Titus van Est" -> {
+                "Luitje Bakema",
+                "Johannes de Roever",
+                "Gerald Laman",
+                "Henry Oedayrajsingh Varma",
+                "Frans Oort",
+                "Léon Rothkrantz",
+                "Gijs Tuynman",
+                "Antonius van de Ven"
+        }
+        "Léon Rothkrantz" -> {
+                "Maja Pantić",
+                "Jacek Wojdel",
+                "Anna Wojdel"
+        }
+        "Maja Pantić" -> {
+                "Yorgos Tzimiropoulos",
+                "Michel Valstar"
+        }
+        "Yorgos Tzimiropoulos" -> {
+                "Aaron Jackson",
+                "Adrian Bulat",
+                "Keerthy Kussumam",
+                "Dimitris Mallis",
+                "Jing yang",
+                "Ioanna Nitnou"
+        }
+        "Michel Valstar" -> {
+                "Timur Almaev",
+                "Shashank Jaiswal",
+                "Siyang Song",
+                "Enrique Sanchez",
+                "Mercedes Torres Torres",
+                "Joy Egede",
+                "Mani Tellamekala"
+        }
+}
